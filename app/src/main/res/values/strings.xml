@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Android Engineer exercise</string>
+    <string name="button_register">Register An Account</string>
+    <string name="logo">logo</string>
+    <string name="main_text">GreenFlag customers can \ncreate an account to access</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="tick1">tick</string>
+    <string name="car_health_updates">Car health updates</string>
+    <string name="request_a_resque_online">Request a resque online</string>
+    <string name="policy_information">Policy information</string>
+    <string name="repeat_password">Repeat Password</string>
+    <string name="create_an_account2">Create An Account</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="second_activity_header">Create an account</string>
+    <string name="backtomainactivity">backToMainActivity</string>
+</resources>

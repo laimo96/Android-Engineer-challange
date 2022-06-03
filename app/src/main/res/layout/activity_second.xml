@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+
+    <TextView
+        android:id="@+id/criteria"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_password_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="206dp"
+        android:text="Repeat Password"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/repeat_password_text"
+        android:layout_marginTop="17dp"
+        android:paddingLeft="17dp"
+        android:text="Criteria:"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearSecondAct"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:id="@+id/backToMain"
+            android:layout_width="52dp"
+            android:layout_height="48dp"
+            android:background="@drawable/back_button_background_gradient"
+            android:contentDescription="@string/backtomainactivity"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView"
+            app:layout_constraintHorizontal_bias="0.021"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="?attr/homeAsUpIndicator" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="76dp"
+            android:fontFamily="@font/museo_sans_300"
+            android:text="@string/second_activity_header"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.529" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearSecondAct"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="199dp"
+        android:text="Email address"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_email_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="200dp"
+        android:text="Create password"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/enter_email_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearSecondAct"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/white"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/enter_password_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_email_text"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/white"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+
+    <EditText
+        android:id="@+id/repeat_password_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_password_text"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/white"
+        android:hint="@string/repeat_password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+
+    <!--    <ImageView-->
+<!--        android:id="@+id/wrongCriteria1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/textView4"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="21dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginEnd="13dp"-->
+<!--        app:srcCompat="@drawable/cross" />-->
+
+    <!--    <ImageView-->
+<!--        android:id="@+id/wrongCriteria2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/textView4"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="54dp"-->
+<!--        android:layout_marginEnd="13dp"-->
+<!--        app:srcCompat="@drawable/cross" />-->
+
+    <TextView
+        android:id="@+id/criteria4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/museo_sans_300"
+        android:text="One lower case letter"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/criteria2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="27dp"
+        android:fontFamily="@font/museo_sans_300"
+        android:text="At least 1 number"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/criteria3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="51dp"
+        android:fontFamily="@font/museo_sans_300"
+        android:text="One uppercase letter"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/criteria1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/museo_sans_300"
+        android:text="Minimum 8 characters"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/accountCreationButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_background_gradient"
+        android:text="@string/create_an_account2"
+        android:textSize="25sp"
+        android:fontFamily="@font/museo_sans_300"
+        android:textAllCaps="false"
+        android:enabled="false"/>
+    <!--    <TextView-->
+<!--        android:id="@+id/textView4"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/repeat_password_text"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="18dp"-->
+<!--        android:layout_marginTop="29dp"-->
+<!--        android:fontFamily="@font/museo_sans_300"-->
+<!--        android:lines="4"-->
+<!--        android:text="Your password should have minimum of 8 \ncharacters and contain at least one \nnumber, one uppercase and one lower \ncase letter. You can use special characters."-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="18sp" />-->
+
+
+
+
+</RelativeLayout>
+
+
+
